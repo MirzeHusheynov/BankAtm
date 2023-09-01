@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Atm</title>
+    <link rel="stylesheet" href="../BootsTrap5 kitabxana/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <style>
+        button{
+            width: 150px;
+            height: 50px;
+            margin: 7px;
+            border-radius: 15px;
+        }
+        button:hover{
+            background-color: yellowgreen;
+            color: white;
+
+        }
+        input{
+            width: 200px;
+            height: 40px;
+            margin-top: 20px;
+            text-align: center;
+            margin-left: 70px;
+
+ 
+        }
+    </style>
+</head>
+<body>
+    <header style="display: flex;justify-content: space-evenly;margin-top: 30px;">
+        <h1>ATM</h1>
+        <h2>Card Return</h2>
+    </header>
+    <main style="display: flex;justify-content: space-around;margin-top: 40px;">
+        <div>
+            <p style="font-size: 40px;font-weight: 600;">Welcome</p>
+            <p style="font-size: 30px;margin-top: -15px;" id="userName"></p>
+            <p style="font-size: 40px;font-weight: 600;">Balans :</p>
+            <p style="font-size: 24px;" id="balans">0</p>
+            <p style="font-size: 36px;font-weight: 600;">Cixarilan mebleg :</p>
+            <p style="font-size: 24px;" id="cixarilanMebleg">0</p>
+        </div>
+    <div style="display: flex;flex-direction: column;">
+        <div>
+            <button id="getCash">Elave Et</button>
+            <button id="cixaris">Cixaris</button>
+        </div>
+        <div>
+            <button id="payments"> Payments</button>
+            <button id="credit">Credit Cards</button>
+        </div>
+        <div>
+            <button id="account"> Account Setting</button>
+            <button id="other">Other</button>
+        </div>
+        <div>
+            <input type="number" placeholder="Mebleg daxil edin" id="input">
+  
+        </div>
+    </div>
+    </main>
+
+
+    
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
